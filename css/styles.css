@@ -1,5 +1,5 @@
 body {
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 }
 
 .page-header { 
@@ -12,3 +12,11 @@ body {
 .featureImg {
 	margin-bottom: 15px;
 }
+
+.footer1 {
+        height: 60px;
+      }
+.footer1 {
+        background-color: #E6E6E6;
+      }
+	  
