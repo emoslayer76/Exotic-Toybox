@@ -1,22 +1,57 @@
-body {
-	margin-bottom: 0px;
+.bobmarley{
+	text-align: center;
 }
 
-.page-header { 
-	margin-top: 0;
-}
-.panel-body {
-	padding-top: 0;
-}
-
-.featureImg {
-	margin-bottom: 15px;
+.tableTitle{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
 }
 
-.footer1 {
-        height: 60px;
-      }
-.footer1 {
-        background-color: #E6E6E6;
-      }
-	  
+table, th, td{
+	border:1px solid black;
+}
+
+
+td {
+	height: 50px;
+    vertical-align: bottom;
+}
+
+th {
+    background-color: #505050 ;
+    color: white;
+}
+
+.article{
+	text-align: center;
+}
+
+.featureImg{
+	margin-left:7px;
+}
+
+.jumbotron {
+	margin-top:10px;
+    background-color: #505050 ;
+    color: white;
+}
+
+.newSection{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.panel-body{
+	background-color: #F8F8F8 ;
+}
+
+body{
+	background-color: #383838 ;
+	margin-bottom:20px;
+}
+
+p {
+    text-indent: 20px;
+	text-align: justify;
+}
