@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!--The Following meta tag throws and error when validated-->
 		<meta charset="utf-8">
-
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 		<title>Ending the crisis</title>
+		
+		<!--Reference to css file-->
 		<link href = "css/bootstrap.min.css" rel = "stylesheet">
 		<link href = "css/styles.css" rel = "stylesheet">
 		<meta name="description" content="">
 		<meta name="author" content="Malini">
+		
+		<link href = "font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href = "bootstrap-social.less" rel = "stylesheet">
+		<link href = "bootstrap-social.scss" rel = "stylesheet">
+		<link href = "bootstrap-social.css" rel = "stylesheet">
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
 
@@ -18,19 +25,22 @@
 	</head>
 
 	<body>
+		<!--Navbar for all page links-->
 		<div class = "navbar navbar-inverse navbar-static-top">
 		       <div class = "container">
-				   
+		       	
+				   <!--Collapse navbar menu into a 3 icon bar-->
 				   <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
 				        <span class = "icon-bar"></span>
 						<span class = "icon-bar"></span>
 						<span class = "icon-bar"></span>
 				   </button>
 				   
+				   <!--Links for all webpages-->
 				   <div class= "collapse navbar-collapse navHeaderCollapse">
 				       <ul class = "nav navbar-nav navbar-right">
 					     <li><a href = "index.html">Home</a></li>
-					     <li><a href = "Waterscarcity,riskandvulnerablitiy.html">Water scarcity,risk and vulnerablitiy</a></li>
+					      <li><a href = "Waterscarcityriskandvulnerablitiy.html">Water scarcity,risk and vulnerablitiy</a></li>
 						 <li class ="active"><a href = "Ending.html" >Ending the crisis</a></li>
 						 <li><a href = "About.html">About Us</a></li>
 						 <li><a href = "Contact.html">Contact</a></li>
@@ -42,9 +52,14 @@
 		
 		<div class = "container ">
 			<div class = "row ">
+				<div class = "panel panel-default">
+						<div class = "panel-body">
+				<!--Responsive image on the left of the page-->
 				<div class="col-sm-4">
 					<img class="img-responsive img-rounded left-block" src="img/tap.png" alt="United Nations" width="460" height="345"/> 
 				</div>
+				
+				<!--Main heading and description to the rigth of the responsive image-->
 				<div class="col-sm-8">
 					<header>
                         	<h1><strong>ENDING THE CRISIS IN WATER AND SANITATION</strong></h1>
@@ -62,6 +77,8 @@
                         	</p>
                         </div>
                 </div>
+                
+                <!--Infomation-->
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 "> 
 					<div>
                         <h2>The Millennium Development Goals and beyond: getting on track</h2>
@@ -102,6 +119,8 @@
                         	   waste of lost education potential and to act as a catalyst for economic growth.
                         	</p>
                         	</div>
+                        	
+                        	<!--Video-->
                         	<div>	
                         		<iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/pDUCr-V9NE8" allowfullscreen></iframe>
                       		</div>
@@ -129,23 +148,55 @@
 							   • A global action plan for water and sanitation.<br>
 							 </p>
 							 
+							 <!--Responsive image on the center of the page-->
 							 <img class="img-responsive img-rounded center-block" src="img/graph.png" alt="United Nations" width="500" height="400"/>
 							    
 							 </div>        
                         </div>
-             </div>  
+					</div>
+				</div>  
             </div>
         </div>
-        
+    </div>   
+	
+        <!--Footer-->
+        <footer>
 		<div class = "navbar navbar-default navbar-fixed-bottom">
-			   
-			       <div class = "container">
-				       <p class = "navbar-text pull-left">Site Built By Roshan Sookram, Reza Ali and Malini Ramberran</p>
-				       
-					   <a href = "#" class = "navbar-btn btn-danger btn pull-right">About Us</a>
-				   </div>
+			    <div class = "container">
+               <a  href = "game/Game.html">
+               <p class = "navbar-text pull-left"><img class="img-circle"  src="img/Logo.jpg" alt="" width="20" height="20"/>  Copyright © Little Busters Inc.</p>
+                </a>
+                <div class="footer-col col-md-4">
+                        
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://www.facebook.com" class=" btn btn-social-icon btn-outline">
+                                <i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                               <a href="http://www.twitter.com" class=" btn btn-social-icon btn-outline">
+                               <i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com" class="btn btn-social-icon btn-outline">
+                                <i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.github.com" class="btn btn-social-icon btn-outline">
+                                <i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                   <div class="footer-col col-md-4">
+                      <p> Phone: +1-212-906-5964 <br> Email: littlebustersinc@gmail.com </p>
+                    </div>
+                    
+
+			   </div>  
+
 		</div>
-		
+		</footer>
+	
 	     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
 	     <script src = "js/bootstrap.js"></script>	
 	     

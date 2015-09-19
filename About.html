@@ -3,15 +3,22 @@
 	<head>
 		<meta charset="utf-8">
 
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 		<title>About Us</title>
 		
+		<!--Reference to css file and other resourses-->
 		<link href = "css/bootstrap.min.css" rel = "stylesheet">
 		<link href = "css/styles.css" rel = "stylesheet">
 		<meta name="description" content="">
-		<meta name="author" content="NO">
+		<meta name="author" content="The one The only...">
 		
+		<!-- THESE ARE NEEDED FOR THE FOOTER-->
+		<link href = "font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href = "bootstrap-social.less" rel = "stylesheet">
+		<link href = "bootstrap-social.scss" rel = "stylesheet">
+		<link href = "bootstrap-social.css" rel = "stylesheet">
+		<!-- THESE ARE NEEDED FOR THE FOOTER-->
 
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
@@ -22,9 +29,11 @@
 	</head>
 
 	<body>
+		<!--Navbar for all page links-->
 		<div class = "navbar navbar-inverse navbar-static-top">
 		       <div class = "container">
-				   
+			   
+				   <!--Collapsable navbar menu into icon bar-->
 				   <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
 				        <span class = "icon-bar"></span>
 						<span class = "icon-bar"></span>
@@ -32,24 +41,29 @@
 				   </button>
 				   
 				   <div class= "collapse navbar-collapse navHeaderCollapse">
-				   <a href = "userprofile.html" class = "navbar-btn btn-info btn-pull-left btn">Sign in</a>
+				   
+				   <!--Create links for all webpages-->
+				  <!-- <a href = "userprofile.html" class = "navbar-btn btn-info btn-pull-left btn">Sign in</a>-->				  
+				  <!--Create links for all webpages-->
+				   <div class= "collapse navbar-collapse navHeaderCollapse">
 				       <ul class = "nav navbar-nav navbar-right">
 					     <li><a href = "index.html">Home</a></li>
-					     <li ><a href = "Water scarcity,risk and vulnerablitiy.html">Water scarcity,risk and vulnerablitiy</a></li>
-						 <li><a href = "Ending.html" >Ending the crisis</a> </li>
-						 <li class="active"><a href = "About.html">About Us</a></li>
+					     <li><a href = "Waterscarcityriskandvulnerablitiy.html">Water scarcity,risk and vulnerablitiy</a></li>
+						 <li class = "dropdown"><a href = "Ending.html" >Ending the crisis </a></li>
+						 <li class = "active" ><a href = "About.html">About Us</a></li>
 						 <li><a href = "Contact.html">Contact</a></li>
-						 
 					   </ul>
-				   
 				   </div>
-			   </div>
+				</div>
+			</div>
 		 </div>
 		 
-		 
+		 <!--Create a panel of grid size 12-->
 		  <div class = "container ">
 			<div class = "row ">
-				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">   
+				<div class="col-lg-12"> 				
+					<div class = "panel panel-default">
+						<div class = "panel-body">
 					
                     	<header>
                         	<h1 class = "text-center">Who is the UN?</h1>
@@ -63,19 +77,17 @@
 							 human rights, and achievement of world peace.</p> 
 						 </div>
 						 
+						 <!--Added a responsive image-->
 						<div class="col-sm-6">	
-						<img class="img-responsive img-rounded " src="img/UN.png" alt="United Nations" width="460" height="345"/>               	                  
-					</div>
-				</div>
-			</div>
-		</div>
+							<img class="img-responsive img-rounded " src="img/UN.png" alt="United Nations" width="460" height="345"/>               	                  
+						</div>
+				
+			
 		
 		
-		<div class = "container ">
-			<div class = "row ">
-				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">                						
+		     						
                     	<header>
-                        	<h1 class = "text-center">Why we do this</h1>
+                        	<h1 class = "text-center">Why we do this?</h1>
                         </header>
                         
                         <div class="col-sm-6">	
@@ -86,74 +98,90 @@
 							2.6 billion people lack access to adequate sanitation.
 							These headline numbers capture only one
 							dimension of the problem.</p> 
+							<p>The Millennium Development Goals provide a benchmark 
+							for measuring progress towards the human right to water.
+							That is why halving the proportion of world population without
+							sustainable access to safe drinking water and basic sanitation-Goal 7,
+							target 10- is a key target in its own right. But achieving that target
+							is critical to the attainment of other goals. Clean water and sanitation
+							would save the lives of countless children, support progress in education
+							and liberate people from the illnesses that keep them in poverty.</p>
 						</div>
-					<div class="col-sm-6">	
-						<img class="img-responsive img-rounded " src="img/About-Img1.jpg" alt="" width="460" height="345"/>               	                  
-					</div>
-				</div>
-			</div>
-		</div>
+						
+						<div class="col-sm-6">	
+							<img class="img-responsive img-rounded " src="img/About-Img1.jpg" alt="" width="460" height="345"/>               	                  
+						</div>
+				
 		 
-		 
-		<div class = "container ">
-			<div class = "row ">
-				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">                						
+		             						
                     	<header>
                         	<h1>Who Are Team Little Busters??</h1>
                         </header>
                         
-                        <div>
+                       
 						
 						<h3>Reza</h3>
 						<p>"I came here to code and watch good anime, and I'm all out of good anime." -Reza <b>'Baka Gaijin'</b> Ali 2012</p> 
 						
 						<h3>Malini</h3>
-						<p>"Meeting this Sunday at 10! And whoever is late washes my car!" Malini <b>'Cruel Taskmaster'</b> Ramberran 2015</p> 
+						<p>"Meeting this Sunday at 10! And whoever is late washes my car!"- Malini <b>'Cruel Taskmaster'</b> Ramberran 2015</p> 
 						
 						<h3>Roshan</h3>
-						<p>"I dont know, I just heard game and got excited." Roshan <b>'Mr. No WIFI'</b> Sookram 2015</p> 
+						<p>"I dont know, I just heard game and got excited."- Roshan <b>'Mr. No WIFI'</b> Sookram 2015</p> 
 						
-						<h3>Me</h3>
-						<p>what name one is here</p> 
+						<h3>Adrian</h3>
+						<p>I was here, i did stuff and things. Also I dont have a good line to put here - Undergrad </p> 
 						
 						<h3>Derek</h3>
-						<p>"The snack that smiles back" -Derek 2016</p> 
-					
- <img class="img-responsive img-rounded  center-block" src="" alt="Picture of team?" width="460" height="345"/>               	                  
+						<p>"The snack that smiles back" -Derek 2016</p> 					
+						
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		 
-		 
-		
-		<footer class="footer footer1">			   
-			<div class = "container">				    
-			    <p class = "navbar-text pull-left textmuted">
-				<a href="Game.html">
-				  <img class="img-circle"  src="img/Logo.jpg" alt="" width="25" height="25"/>
-				 </a>
-				  Copyright Little Busters Inc.
-			  </p>
-			  
-			  <p class = "navbar-text pull-right">
-				<a href="#">
-				  <img class="img" href = "#" src="img/fb.png" alt="" width="25" height="32"/>
-				</a>
-				<a href="#">
-				  <img class="img" href = "#" src="img/in.png" alt="" width="25" height="32"/>
-				 </a>
-				<a href="#">
-				  <img class="img" href = "#" src="img/tw.png" alt="" width="25" height="32"/>
-				</a>
-				
-			  </p>
-					
-			 </div>
+			
+		<!-- updated footer with links -->
+		<footer>
+		<div class = "navbar navbar-default navbar-fixed-bottom">
+			    <div class = "container">
+				<a  href = "game/Game.html">
+               <p class = "navbar-text pull-left"><img class="img-circle"  src="img/Logo.jpg" alt="" width="20" height="20"/>  Copyright © Little Busters Inc.</p>
+                </a>
+				<div class="footer-col col-md-4">
+                        
+                        <ul class="list-inline ">
+                            <li>
+                                <a href="http://www.facebook.com" class=" btn btn-social-icon btn-outline">
+                                <i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                               <a href="http://www.twitter.com" class=" btn btn-social-icon btn-outline">
+                               <i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com" class="btn btn-social-icon btn-outline">
+                                <i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.github.com" class="btn btn-social-icon btn-outline">
+                                <i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                   <div class="footer-col col-md-4">
+                      <p> Phone: +1-212-906-5964 <br> Email: littlebustersinc@gmail.com </p>
+                    </div>
+                   
+
+			   </div>  
+
+		</div>
 		</footer>
 		
+		
 				
-	     <script src = "jquery/jquery-1.11.3.min.js"></script>
+	     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	     <script src = "js/bootstrap.js"></script>	
 	     
 	</body>

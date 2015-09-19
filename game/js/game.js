@@ -200,9 +200,9 @@ var render = function () {
 		ctx.font = "24px Helvetica";
 		ctx.textAlign = "left";
 		ctx.textBaseline = "top";
-		ctx.fillText("Start Game ",375,200);
+		ctx.fillText("Collect as much water as you can",250,200);
 		ctx.fillStyle = "rgb(250, 0, 0)";
-		ctx.fillText("Press Enter ",375,250);
+		ctx.fillText("Press Enter To start",325,250);
 		
 	}
     if(gameState == 1){
@@ -245,10 +245,11 @@ var render = function () {
 		ctx.font = "24px Helvetica";
 		ctx.textalign = "left";
 		ctx.Baseline = "top";
-		ctx.fillText(" Time is Up! ", 300, 150);
-		ctx.fillText("Water Drops Collected: " + waterCollected, 300, 200);
+		ctx.fillText("Time is Up!  ", 300, 150);
+		ctx.fillText("Dont let this be our future!", 300, 200);
+		ctx.fillText("Water Drops Collected: " + waterCollected, 300, 250);
 		ctx.fillStyle = "rgb(250,0,0)";
-		ctx.fillText("Press ENTER to Try Again " ,300, 250);
+		ctx.fillText("Press ENTER to Try Again " ,300, 300);
 		countcheck = "";
 		
 	}
